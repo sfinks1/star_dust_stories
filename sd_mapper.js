@@ -10,8 +10,10 @@
 
 */
 // Store the current date and time
-//*Declare a variable named thisTime containing a Date object for February 3, 2018 at 3:15:28 AM.*/
-var thisTime = new Date('February 3, 2018 3:15:28 AM');
+//*step one Declare a variable named thisTime containing a Date object for February 3, 2018 at 3:15:28 AM.
+var thisTime = new Date('February 3, 2018 3:15:28 AM');*/
+
+var thisTime = new Date();/**will set the date to current date*/
 /**Use the toLocaleString() method to save the text of the thisTime variable in the timeStr variable.*/
 var timeStr = thisTime.toLocaleString();
 
